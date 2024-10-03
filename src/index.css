@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "LaundryGothic";
+  font-weight: 100;
+  src: url("./fonts/LaundryGothicRegular.ttf");
+}
+
+@font-face {
+  font-family: "LaundryGothic";
+  font-weight: 700;
+  src: url("./fonts/LaundryGothicBold.ttf");
+}
+
+#commonLayoutContainer {
+  width: 100%;
+  min-width: 360px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex; /* Flexbox 사용 */
+  justify-content: space-between; /* 양쪽 끝으로 배치 */
+  align-items: center; /* 세로 중앙 정렬 */
+}
+
+.div-header-title {
+  display: flex; /* Flexbox 사용 */
+  align-items: center; /* 세로 중앙 정렬 */
+  margin: 0 auto; /* 중앙 정렬을 위해 자동 마진 사용 */
+}
+
+.header-title {
+  margin-left: 8px; /* 로고와 제목 사이의 간격 */
+  font-family: LaundryGothic;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.div-search {
+  text-align: -webkit-center;
+}
