@@ -23,11 +23,11 @@ npm run dev
 ~~~
 
 ## 프로젝트 구조
-src/  
-├── assets/        # 이미지 및 SVG 파일
-├── components/    # 재사용 가능한 컴포넌트들
-├── layouts/    
-├── pages/         # 페이지 단위의 컴포넌트들 (라우팅할 페이지들)
-├── router/        # React Router 설정 파일
-├── util/        
-└── App.jsx        # 메인 애플리케이션 파일
+src/    
+├── assets/        # 이미지 및 SVG 파일  
+├── components/    # 재사용 가능한 컴포넌트들  
+├── layouts/      
+├── pages/         # 페이지 단위의 컴포넌트들 (라우팅할 페이지들)  
+├── router/        # React Router 설정 파일  
+├── util/          
+└── App.jsx        # 메인 애플리케이션 파일  
