@@ -17,6 +17,18 @@
   src: url("./assets/fonts/LaundryGothicBold.ttf");
 }
 
+@font-face {
+  font-family: "NotoSans";
+  font-weight: 100;
+  src: url("./assets/fonts/NotoSansRegular.ttf");
+}
+
+@font-face {
+  font-family: "NotoSans";
+  font-weight: 700;
+  src: url("./assets/fonts/NotoSansBold.ttf");
+}
+
 #commonLayoutContainer {
   width: 100%;
   min-width: 360px;
@@ -35,4 +47,58 @@
 
 .div-search {
   text-align: -webkit-center;
+}
+
+
+
+/* slider */
+.swiper {
+  width: 100%;
+  height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #99d32d;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 이전 버튼을 가운데와 왼쪽 슬라이더 사이에 배치 */
+.swiper-button-prev {
+  left: 30%; /* 왼쪽 슬라이더와 가운데 슬라이더 사이 */
+}
+
+/* 다음 버튼을 가운데와 오른쪽 슬라이더 사이에 배치 */
+.swiper-button-next {
+  right: 33.33%; /* 가운데 슬라이더와 오른쪽 슬라이더 사이 */
+}
+
+.category .swiper {
+  height: auto;
+}
+.category .swiper-slide {
+  width: auto;
+  height: auto;
+  padding: 10px 30px;
+}
+
+.content-title {
+  font-family: NotoSans;
+  font-weight: 700;
 }

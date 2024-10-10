@@ -6,6 +6,7 @@ function BasicLayout({children}) {
         <>
             <div id='commonLayoutContainer'>
                 <Header/>
+                {children}
             </div>
         </>
     );
