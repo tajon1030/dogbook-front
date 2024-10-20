@@ -8,10 +8,7 @@ function BasicLayout({children}) {
             <div id='commonLayoutContainer'>
                 <Header/>
                 {children}
-<<<<<<< Updated upstream
-=======
                 <Footer/>
->>>>>>> Stashed changes
             </div>
         </>
     );

@@ -18,13 +18,6 @@ function MainPage(props) {
                 </div>
             </div>
             <div>
-<<<<<<< Updated upstream
-            <div className="relative flex justify-center items-center">
-                <span className="text-black content-title">중고책</span>
-                <span className="absolute right-0">더보기▶</span>
-                <div></div>
-            </div>
-=======
                 <div className="relative flex justify-center items-center"
                 style={{background: 'linear-gradient(180deg, rgb(238.00000101327896, 238.00000101327896, 238.00000101327896) 0%, rgb(255, 255, 255) 100%)', height: '39px', left: '0px'}}
                 >
@@ -70,7 +63,6 @@ function MainPage(props) {
                         </div>
                     </div>
                 </div>
->>>>>>> Stashed changes
             </div>
         </BasicLayout> 
     );
